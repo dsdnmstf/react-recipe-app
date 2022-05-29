@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { FlexContainer } from "../globalStlyes/GlobalStyles";
+import { FlexContainer } from "../globalStyles/GlobalStyles";
 
 export const HeaderContainer = styled(FlexContainer)`
   background-color: #00adb5;
