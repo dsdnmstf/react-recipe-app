@@ -1,10 +1,5 @@
 import React from "react";
-import {
-  AboutContainer,
-  HeaderContainer,
-  InfoContainer,
-  StyledImage,
-} from "./AboutStyles";
+import { AboutContainer, InfoContainer, StyledImage } from "./AboutStyles";
 
 import codingSvg from "../../assets/coding.svg";
 
