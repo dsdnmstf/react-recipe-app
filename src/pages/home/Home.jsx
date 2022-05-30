@@ -51,7 +51,7 @@ const Home = () => {
             <RecipeCard justify="space-evenly" key={index}>
               <RecipeHeader>{recipe.label}</RecipeHeader>
               <RecipeImage src={recipe.image || defaultImage} />
-              <Button onClick={() => navigate("/details", { state: recipe })}>
+              <Button onClick={() => navigate("/detail", { state: recipe })}>
                 View More
               </Button>
             </RecipeCard>

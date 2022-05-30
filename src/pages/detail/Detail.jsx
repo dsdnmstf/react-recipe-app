@@ -9,7 +9,7 @@ import {
 import { useLocation } from "react-router-dom";
 import dietSvg from "../../assets/diet.svg";
 
-const Details = () => {
+const Detail = () => {
   const { state } = useLocation();
 
   return (
@@ -68,4 +68,4 @@ const Details = () => {
   );
 };
 
-export default Details;
+export default Detail;

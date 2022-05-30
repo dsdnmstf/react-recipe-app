@@ -6,7 +6,7 @@ import About from "../pages/about/About";
 import Login from "../pages/login/Login";
 import Register from "../pages/register/Register";
 import PrivateRouter from "./PrivateRouter";
-import Details from "../pages/detail/Detail";
+import Detail from "../pages/detail/Detail";
 
 const AppRouter = () => {
   return (
@@ -22,7 +22,7 @@ const AppRouter = () => {
         </Route>
 
         <Route path="/detail" element={<PrivateRouter />}>
-          <Route path="" element={<Details />} />
+          <Route path="" element={<Detail />} />
         </Route>
 
         <Route path="/login" element={<Login />} />
